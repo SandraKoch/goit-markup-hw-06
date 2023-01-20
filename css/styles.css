@@ -541,6 +541,67 @@ Therfore fill:(--icons-color) included in the same class (on which hover/focus i
   height: 20px;
 }
 
+/* newsletter */
+
+.newsletter {
+  margin-top: 72px;
+  margin-left: 78px;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.newsletter__headline {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.newsletter__input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: inherit;
+  border-radius: 4px;
+  padding: 15px 16px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
+}
+
+.newsletter-button {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  margin-left: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-button__icon {
+  fill: #ffffff;
+  margin-left: 24px;
+}
+
 /* ________________________Portfolio styles__________________________ */
 
 .filters {
