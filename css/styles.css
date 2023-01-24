@@ -83,6 +83,10 @@ body {
   position: relative;
 }
 
+.navigation__item .is-active {
+  color: var(--active-color);
+}
+
 .navigation__item .is-active:after {
   content: "";
   border-bottom: 4px solid var(--active-color);
@@ -352,20 +356,20 @@ transition: [property] [duration] [timing-function] [delay] */
   color: var(--secondary-color);
   position: relative;
   width: 100%;
-  text-align: center;
-  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* custom made styles for checkbox */
 
 .contact-form__checkbox-label::before {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='15' fill='none'%3E%3Cpath fill='%23212121' d='M14.222 1.667v11.666H1.778V1.667h12.444Zm0-1.667H1.778C.8 0 0 .75 0 1.667v11.666C0 14.25.8 15 1.778 15h12.444C15.2 15 16 14.25 16 13.333V1.667C16 .75 15.2 0 14.222 0Z'/%3E%3C/svg%3E");
-  position: absolute;
   display: block;
-  top: 6px;
   content: "";
   width: 16px;
   height: 15px;
+  margin-right: 5px;
 }
 
 .contact-form__checkbox-input:checked + .contact-form__checkbox-label::before {
@@ -599,7 +603,9 @@ Therfore fill:(--icons-color) included in the same class (on which hover/focus i
 .footer__wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  padding: 60px 0px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-logo {
@@ -609,7 +615,7 @@ Therfore fill:(--icons-color) included in the same class (on which hover/focus i
   font-size: 26px;
   line-height: 1.19; /*31px*/
   letter-spacing: 0.03em;
-  padding-top: 60px;
+  /* padding-top: 60px; */
   padding-bottom: 20px;
 }
 
@@ -618,7 +624,7 @@ Therfore fill:(--icons-color) included in the same class (on which hover/focus i
 }
 
 .footer-contact {
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
 
 .footer-contact__item {
@@ -640,7 +646,7 @@ Therfore fill:(--icons-color) included in the same class (on which hover/focus i
 }
 
 .social {
-  margin-top: 72px;
+  /* margin-top: 72px; */
   margin-left: 70px;
 }
 
@@ -695,7 +701,7 @@ Therfore fill:(--icons-color) included in the same class (on which hover/focus i
 /* newsletter */
 
 .newsletter {
-  margin-top: 72px;
+  /* margin-top: 72px; */
   margin-left: 78px;
   display: flex;
   flex-direction: column;
