@@ -623,10 +623,6 @@ Therfore fill:(--icons-color) included in the same class (on which hover/focus i
   color: #2196f3;
 }
 
-.footer-contact {
-  /* padding-bottom: 60px; */
-}
-
 .footer-contact__item {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
